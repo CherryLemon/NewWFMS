@@ -1,0 +1,14 @@
+﻿extends layout
+
+block content
+    link(rel='stylesheet', type='text/css', href='/stylesheets/file_uploader.css')
+    .row
+        .col-md-6
+            form#upload-form(action="/upload",method="post")
+                .form-group.hide-upload
+                    input#file.form-control(type='file', name='file')
+                .form-group.file-drag-drop
+                    p Drag Here to upload file
+
+block scripts
+    script(src='javascripts/file_uploader.js')

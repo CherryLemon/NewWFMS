@@ -1,0 +1,15 @@
+{
+  "name": "WFMS5",
+  "version": "0.0.0",
+  "description": "WFMS5",
+  "main": "app.js",
+  "author": {
+    "name": "v-yonwu",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*"
+  }
+}

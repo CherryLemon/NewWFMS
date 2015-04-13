@@ -1,0 +1,10 @@
+{
+    "store_path": "d:/data",
+    "db_setting": {
+        "host": "166.111.134.46",
+        "port": 3306,
+        "username": "newfms",
+        "password": "westwfms",
+        "db": "newfms"
+    }
+}
